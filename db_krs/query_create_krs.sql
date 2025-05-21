@@ -1,0 +1,8 @@
+CREATE table krs (
+id_krs INT(5) AUTO_INCREMENT PRIMARY KEY,
+npm VARCHAR(30) NOT NULL,
+kode_matkul CHAR(5) NOT NULL, 
+CONSTRAINT unique_krs UNIQUE (npm, kode_matkul),
+FOREIGN KEY (npm) REFERENCES  mahasiswa (npm) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (kode_matkul) REFERENCES  matkul (kode_matkul) ON DELETE CASCADE ON UPDATE CASCADE
+);

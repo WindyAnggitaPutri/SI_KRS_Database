@@ -1,0 +1,2 @@
+INSERT into user (username, password, status) VALUES
+('admin', 'admin', 'admin'),('230102072', '1234', 'mahasiswa'),('230102057','1234', 'mahasiswa'),('230102058','1234','mahasiswa'),('230202059', '1234', 'mahasiswa'),('230302065','1234', 'mahasiswa');

@@ -1,0 +1,2 @@
+insert into prodi (kode_prodi, nama_prodi) VALUES
+('D3TE', 'Diploma III Teknik Elektro'),('D4RKS', 'Diploma IV Rekayasa Keamanan Siber'),('D4TPPL', 'Dimploma IV Teknik Pengendalian Pencemaran Lingkungan'),('D3TI','Diploma III Teknik Informatika'),('D3TM', 'Diploma III Teknik Mesin');
