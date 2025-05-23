@@ -1,4 +1,5 @@
 <h1> 📚 SISTEM INFORMASI KRS</h1>
+SI KRS adalah sistem informasi yang digunakan untuk memudahkan mahasiswa dalam mendapatkan krs, dan juga memudahkan pengelolaan krs yang ada di Politeknik Negeri Cilacap <br>
 <hr>
 <h3>📊 Tugas Database: <br></h3>
 Mendesain database (ERD) <br>
@@ -16,6 +17,9 @@ Penjelasan relasi table : <br>
 
 <h2> 💻 2. Membuat relasi tabel di MySQL </h2>
 1. Membuat Database terlebih dahulu dengan nama db_krs <br>
+- Dapat membuat database di navicat 
+- Klik kanan pada koneksi 
+- Lalu pilih New Database dengan nama db_krs
 2. Lalu membuat table dengan perintah query <b>CREATE TABLE</b>. Tujuan dari query <b>CREATE TABLE</b> adalah untuk membuat table beserta dengan struktur (kolom) dan tipe data (int, varchar dll) dan atribut table lainnya yang nantinya dapat diiisikan table yang sesuai dengan yang diinginkan. <br>
 A. CREATE TABLE kelas <br>
         
@@ -215,5 +219,7 @@ B. VIEW krs <br>
             mahasiswa.nama_mahasiswa, 
             matkul.nama_matkul;
 
-    
+7. Dokumentasi Query di atas. Query yang yang telah dibuat di atas telah di dokumentasikan.
+
+🔗 [Dokumentasi Query (GDRIVE)](https://drive.google.com/drive/folders/1YyQ5jnc3e4fRC87JtkuOpRo41go9zAWv?usp=sharing)
 
